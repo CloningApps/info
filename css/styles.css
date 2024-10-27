@@ -1,0 +1,69 @@
+body {
+    font-family: 'Ubuntu', sans-serif; /* Change font to Ubuntu */
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px; /* Added border radius */
+    cursor: pointer;
+    display: flex; /* Align icon and text */
+    align-items: center;
+}
+
+button i {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+}
+
+li button {
+    background-color: #dc3545;
+    padding: 5px 10px; /* Add padding to the remove button */
+    border-radius: 4px; /* Added border radius */
+}
+
+li button:hover {
+    background-color: #c82333;
+  }
